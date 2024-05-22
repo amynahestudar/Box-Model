@@ -1,44 +1,44 @@
+body{
+    background-color: rgb(115, 154, 186);
+}
+
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
 
 div{
 
- height: 400px;
- width: 400px;
+    height: 400px;
+    width: 400px;
 
- border-width: 10px;
-border-style: groove;
-border-color: rgb(206, 152, 15);
- border-radius: 26px; 
+    border-width: 10px;
+    border-style: groove;
+    border-color: goldenrod;
+    border-radius: 26px;
 
+    background-image: url(imagem/imagem.ico.jpg);
+    text-align: center;
+    background-size:cover ;
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:10px ;
+    padding-bottom:10px ;
 
-background-image: url(imagens/flor\ 5.jpg );
-text-align: center;
-background-size:cover ;
+    outline-width: 19px;
+    outline-style:inset;
+    outline-color: darkslategrey;
 
+    margin: auto;
+    margin-top: 120px;
 
-   padding-top: 10px;
-   padding-left: 10px;
-   padding-right: 10px;
-   padding-bottom: 10px;
+} 
 
-   outline-width: 45px;
-   outline-style:double;
-   outline-color: darkslategrey;
+P{
 
-   margin:auto;
-   margin-top:120px;
-   
+    padding-top:230px;
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(163, 120, 9);
+    font-weight: bold;
 }
-
-p {
-   text-align: center;
-   padding-top: 100px;
-   font-style: italic;
-   font-size: 50px;
-   color: goldenrod;
-   font-weight: bold;
-
-}
-
